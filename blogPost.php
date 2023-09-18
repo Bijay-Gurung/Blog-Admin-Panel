@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="admin.css" rel="stylesheet">
-    <title>Admin Panel</title>
+    <link href="blogPost.css" rel="stylesheet">
+    <title>Blog Post</title>
 </head>
 <body>
     <aside>
@@ -28,28 +28,7 @@
 </aside>
 
 <section> <!--Use Dom for this section-->
-<h1>Dashboard</h1>
-
-    <div class="totalPost">
-        <h3>Total Post</h3>
-        <p id="numOfPost">0</p><!--Make both h3 and p entire div clickable. link with a tag anchor-->
-    </div>
-
-    <div class="totalUser">
-        <h3>Total User</h3>
-        <p id="numOfUser">1</p>
-    </div>
-
-    <div class="totalCategories">
-        <h3>Total Categories</h3>
-        <p id="numOfCategory">0</p>
-    </div>
-
-    <div class="notifications">
-        <h3>Total Notifications</h3>
-        <p id="numOfNotification">0</p>
-    </div>
-
+<h1>Blog Post</h1>
 </section>
     <script src="https://kit.fontawesome.com/4f9d824da5.js" crossorigin="anonymous"></script>
 </body>

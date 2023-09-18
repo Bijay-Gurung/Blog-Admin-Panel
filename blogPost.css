@@ -53,6 +53,9 @@ a{
 i{
     padding-right: 10px;
 }
+#setting{
+    display: none;
+}
 section{
     grid-row-start: 2;
     grid-row-end: 7;
@@ -61,61 +64,6 @@ section{
     display: grid;
     grid-template-rows: repeat(5,100px);
     grid-template-columns: repeat(14,100px);
-}
-.totalPost{
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: #ffffff05;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(25px);
-    box-shadow: 4px 3px 10px 3px #BEB7AF;
-    border-radius: 9px;
-}
-.totalUser{
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    background-color: #ffffff05;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(25px);
-    box-shadow: 4px 3px 10px 3px #BEB7AF;
-    border-radius: 9px;
-}
-.totalCategories{
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 7;
-    grid-column-end: 9;
-    background-color: #ffffff05;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(25px);
-    box-shadow: 4px 3px 10px 3px #BEB7AF;
-    border-radius: 9px;
-}
-.notifications{
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 10;
-    grid-column-end: 12;
-    background-color: #ffffff05;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(25px);
-    box-shadow: 4px 3px 10px 3px #BEB7AF;
-    border-radius: 9px;
-}
-h3{
-    text-align: center;
-    padding-top: 50px;
-}
-p{
-    text-align: center;
-    padding-top: 30px;
-}
-#setting{
-    display: none;
 }
 h1{
     grid-row-start: 1;
