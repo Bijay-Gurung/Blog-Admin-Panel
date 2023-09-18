@@ -27,8 +27,21 @@
         </nav>
 </aside>
 
-<section> <!--Use Dom for this section-->
-<h1>Blog Post</h1>
+<section> 
+    <h1>Blog Post</h1><!--Use Dom for this section-->
+    <div class="postSection">
+        <form method="POST">
+            <input type="text" id="title" name="title" placeholder="Title">
+            <label for="category">Category:</label>
+            <input id="category" name="category" list="categories" type="text">
+            <datalist id="categories"></datalist>
+            <label for="blog">New Blog Post: </label>
+            <textarea id="blog" name="blog" rows="5" col="30">
+            <label for="publish">Publish</label>
+            <input type="checkbox" id="publish">
+            <button type="submit">Add Post</button>
+        </form>
+    </div>
 </section>
     <script src="https://kit.fontawesome.com/4f9d824da5.js" crossorigin="anonymous"></script>
 </body>

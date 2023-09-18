@@ -71,3 +71,10 @@ h1{
     grid-column-start: 6;
     grid-column-end: 8;
 }
+input{
+    color: #000;
+    border-radius: 9px;
+}
+option{
+    color: #000;
+}
