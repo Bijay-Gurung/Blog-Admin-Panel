@@ -31,15 +31,16 @@
     <h1>Blog Post</h1><!--Use Dom for this section-->
     <div class="postSection">
         <form method="POST">
-            <input type="text" id="title" name="title" placeholder="Title">
-            <label for="category">Category:</label>
-            <input id="category" name="category" list="categories" type="text">
-            <datalist id="categories"></datalist>
-            <label for="blog">New Blog Post: </label>
-            <textarea id="blog" name="blog" rows="5" col="30">
+            <input type="text" id="title" placeholder="title" name="title">
+            <select id="categories">
+                <option value="food">food</option>
+                <option value="travel">travel</option>
+                <option value="technology">technology</option>
+            </select>
+            <textarea rows="4" column="50"></textarea>
             <label for="publish">Publish</label>
             <input type="checkbox" id="publish">
-            <button type="submit">Add Post</button>
+            <button type="submit">Add</button>
         </form>
     </div>
 </section>

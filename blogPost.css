@@ -77,4 +77,17 @@ input{
 }
 option{
     color: #000;
+    border-radius: 9px;
+}
+select{
+    color: #000;
+    border-radius: 9px;
+}
+button{
+    color: #000;
+    border-radius: 9px;
+}
+textarea{
+    color: #000;
+    border-radius: 9px;
 }
