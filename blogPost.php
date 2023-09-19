@@ -33,14 +33,35 @@
         <form method="POST">
             <input type="text" id="title" placeholder="title" name="title">
             <select id="categories">
-                <option value="food">food</option>
-                <option value="travel">travel</option>
-                <option value="technology">technology</option>
+                <option value="food">Technology</option>
+                <option value="travel">Life Style</option>
+                <option value="technology">Business and Finance</option>
+                <option value="education">Education</option>
+                <option value="science">Science</option>
+                <option value="arts&Culture">Arts & Culture</option>
+                <option value="sports&Fitness">Sports & Fitness</option>
+                <option value="travel">Travel</option>
+                <option value="personalDevelopment">Personal Development</option>
+                <option value="parenting">Parenting</option>
+                <option value="enviroment&Sustainability">Enviroment & Sustainability</option>
+                <option value="history">History</option>
+                <option value="politics&CurrentEvents">Politics & Current Events</option>
+                <option value="technologyReviews">Technology Reveiw</option>
+                <option value="photography">Photography</option>
+                <option value="gaming">Gaming</option>
+                <option value="religion&Spirituality">Religion & Spirituality</option>
+                <option value="home&Improvement">Home Improvement</option>
+                <option value="humor&Entertainment">Humor & Entertainment</option>
+                <option value="socialIssues">Social Issues</option>
             </select>
-            <textarea rows="4" column="50"></textarea>
-            <label for="publish">Publish</label>
+            <textarea rows="6" column="50"></textarea>
             <input type="checkbox" id="publish">
-            <button type="submit">Add</button>
+            <label for="publish">Publish</label><br>
+            <label for="myfile">Add Thumbnail</label><br>
+            <div class="thumbnail">
+                <input type="file" id="myfile">
+            </div>
+            <button type="submit">Add Post</button>
         </form>
     </div>
 </section>
