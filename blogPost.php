@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="admin.php" id="dashboard"><i class="fa-solid fa-gauge"></i>Dashboard</a></li>
                 <li><a href="blogPost.php" id="blogPost"><i class="fa-solid fa-pen"></i>Blog Post</a></li>
-                <li><a href="#" id="comments"><i class="fa-solid fa-comment"></i>Comments</a></li>
+                <li><a href="comments.php" id="comments"><i class="fa-solid fa-comment"></i>Comments</a></li>
                 <li><a href="#" id="categories"><i class="fa-solid fa-clipboard"></i>Categories and Tags</a></li>
                 <li><a href="#" id="mediaLibrary"><i class="fa-solid fa-folder-open"></i>Media Library</a></li>
                 <li><a href="#" id="user"><i class="fa-solid fa-user"></i>User</a></li>
